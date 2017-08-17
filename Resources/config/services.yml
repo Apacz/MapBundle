@@ -1,0 +1,6 @@
+services:
+    mapbundle.google_map_twig:
+        class: Apacz\MapBundle\Twig\GoogleMapTwig
+        arguments: ['%apacz_map.google_apikey%', '%apacz_map.map_zoom%', '@twig']
+        tags:
+            - { name: twig.extension }

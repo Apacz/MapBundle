@@ -1,0 +1,3 @@
+{% set coordinate = [coordinates.getLatitude, coordinates.getLongitude]|join(',') %}
+<img style="border:0" class="image-right"
+     src="https://maps.googleapis.com/maps/api/staticmap?center={{ coordinate }}&amp;size={{ width }}x{{ height }}&amp;maptype=roadmap&amp;zoom=4&amp;markers=color:red%7C-42.455223,-5.322595&amp;key={{ key }}" title="{{ coordinate }}" alt="{{ coordinate }}" \="">
