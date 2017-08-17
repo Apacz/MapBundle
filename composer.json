@@ -12,15 +12,6 @@
     "version": "",
     "autoload": {
         "psr-4": {
-            "AppBundle\\": "src/AppBundle"
-        },
-        "classmap": [
-            "app/AppKernel.php",
-            "app/AppCache.php"
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {
             "Apacz\\MapBundle\\": ""
         }
     },
