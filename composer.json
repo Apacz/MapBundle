@@ -1,5 +1,5 @@
 {
-    "name": "apacz/map_bundle",
+    "name": "apacz/map-bundle",
     "license": "MIT",
     "type": "symfony-bundle",
     "description": "MapBundle - google maps in Symfony 3",
