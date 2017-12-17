@@ -12,14 +12,9 @@
     "version": "",
     "autoload": {
         "psr-4": {
-            "AppBundle\\": "src/AppBundle"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
             "Apacz\\MapBundle\\": ""
         }
-    },
+    }
     "require": {
         "php": "^5.5.9 || ^7.0",
         "symfony/framework-bundle": "^2.7 || ^3.0",
